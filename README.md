@@ -21,7 +21,7 @@ Testing case for QA portfolio
 | **Resultado real** | La cuenta se crea con el nombre `121212` |
 | **Severidad** | Media: se guardan datos de baja calidad, pero no se bloquea ninguna funcionalidad |
 | **Reproducibilidad** 3 de 3 intentos
-| **Evidencia** | `evidence/BUG-001.png` |
+| **Evidencia** | <img width="1309" height="611" alt="nombre y apellidos" src="https://github.com/user-attachments/assets/d9e53cb0-b6f3-437f-bff8-fb03451cb540" /> |
 
 **Nota:** una validación correcta no debe ser "solo letras A-Z". Los nombres reales llevan acentos, ñ, apóstrofes y guiones (José, O'Connor, Ana-María). Ver casos de datos de prueba abajo.
 
