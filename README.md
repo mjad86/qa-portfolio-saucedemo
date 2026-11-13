@@ -38,7 +38,8 @@ Testing case for QA portfolio
 | **Resultado real** | La cuenta se crea con el apellido `@` |
 | **Severidad** | Media: se guardan datos de baja calidad, pero no se bloquea ninguna funcionalidad |
 | **Reproducibilidad** ||
-| **Evidencia** | `evidence/BUG-002.png` |
+| **Evidencia** | <img width="1309" height="611" alt="nombre y apellidos" src="https://github.com/user-attachments/assets/d9e53cb0-b6f3-437f-bff8-fb03451cb540" /><img width="1324" height="675" alt="testcarritoA" src="https://github.com/user-attachments/assets/916a5357-8569-4fb5-bb2b-8c6e7f6f3c06" />
+ |
 
 ### Datos de prueba para validación de nombre y apellido
 
@@ -65,7 +66,8 @@ Testing case for QA portfolio
 | **Resultado real** | El carrito se muestra desactualizado (sin el producto). Al navegar a Home, el carrito sí se actualiza con los datos correctos |
 | **Severidad** | Media: el dato está bien guardado, pero la vista desactualizada puede confundir al usuario |
 | **Reproducibilidad** ||
-| **Evidencia** | `evidence/BUG-003.png` |
+| **Evidencia** | <img width="1336" height="683" alt="testcarritoB" src="https://github.com/user-attachments/assets/0b50ff52-14f1-4f18-9248-3ac0bd2114ea" />
+<img width="1336" height="683" alt="testcarritoB" src="https://github.com/user-attachments/assets/ec7ebac2-9bcf-4717-af84-0023b65d5794" /> |
 
 ---
 
@@ -80,7 +82,7 @@ Testing case for QA portfolio
 | **Resultado real** | Se muestra el mensaje "No search results" (con cualquier término) |
 | **Severidad** | Media: es un camino principal de búsqueda, aunque existe la alternativa de Enter |
 | **Reproducibilidad** ||
-| **Evidencia** | `evidence/BUG-004.png` |
+| **Evidencia** | <img width="1335" height="683" alt="Search" src="https://github.com/user-attachments/assets/9d1f1f88-c971-4651-ae73-6fa97bfedb80" /> |
 
 ---
 
@@ -96,7 +98,7 @@ Testing case for QA portfolio
 | **Verificaciones pendientes** | **[COMPLETAR]** ¿Aparece un error en la consola (F12 > Console) al hacer clic? <br> **[COMPLETAR]** ¿Funciona con la sesión iniciada? Si requiere login y no avisa, el reporte cambia a "no informa que se necesita iniciar sesión" |
 | **Severidad** | Media: los referidos suelen traer clientes potenciales |
 | **Reproducibilidad** ||
-| **Evidencia** | `evidence/BUG-005.png` |
+| **Evidencia** | <img width="1316" height="673" alt="refer a friend" src="https://github.com/user-attachments/assets/731f0dc7-cfec-4501-a57d-ca7e421b702e" /> |
 
 ---
 
@@ -111,4 +113,4 @@ Testing case for QA portfolio
 | **Resultado real** | El producto no se agrega al carrito |
 | **Severidad** | Media-Baja: riesgo de pérdida involuntaria de una compra, pero requiere una acción rápida del usuario y el navegador suele cancelar peticiones al navegar |
 | **Reproducibilidad** 4 de 5 intentos, con y sin throttling |
-| **Evidencia** | `evidence/BUG-006.png` |
+| **Evidencia** | Sin imagen |
