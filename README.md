@@ -1,4 +1,5 @@
 # qa-portfolio-saucedemo
+
 Testing case for QA portfolio
 
 
@@ -71,17 +72,15 @@ Testing case for QA portfolio
 
 ---
 
-## BUG-004: El botón "Search" no devuelve resultados (Enter sí funciona)
+## BUG-004: Dos controles “Search” con comportamiento distinto: el enlace del menú ignora el texto escrito
 
-Campo	Contenido
-Título	Dos controles “Search” con comportamiento distinto: el enlace del menú ignora el texto escrito
-Tipo	Usabilidad
-Pasos	1. Abrir la tienda. 2. Escribir “Jacket” en el campo de búsqueda. 3. Hacer clic en el enlace “Search” del menú superior
-Resultado esperado	Se muestran los resultados de “Jacket” (expectativa de usuario, no un requisito documentado)
-Resultado real	Se abre la página de búsqueda con el mensaje “No search performed” y el término escrito se pierde
+| **Precondiciones** | Usuario en la página de catálogo, carrito vacío |
+| **Pasos** | Pasos	1. Abrir la tienda. 2. Escribir “Jacket” en el campo de búsqueda. 3. Hacer clic en el enlace “Search” del menú superior
+| **Resultado esperado** | Se muestran los resultados de “Jacket” (expectativa de usuario, no un requisito documentado)
+| **Resultado real** |	Se abre la página de búsqueda con el mensaje “No search performed” y el término escrito se pierde
 Alternativas	Funciona con la lupa y con Enter
 Severidad	Baja: hay dos alternativas que funcionan
-| **Evidencia** | <img width="1335" height="683" alt="Search" src="https://github.com/user-attachments/assets/9d1f1f88-c971-4651-ae73-6fa97bfedb80" /> |
+| **Evidencia** | <img width="1904" height="929" alt="test_search_with_menu_link_returns_results_20261121_011006" src="https://github.com/user-attachments/assets/9f515f00-1e6f-4f2a-a290-d612cd7b11a7" /> |
 
 ---
 
