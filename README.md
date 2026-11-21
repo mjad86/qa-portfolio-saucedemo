@@ -73,15 +73,14 @@ Testing case for QA portfolio
 
 ## BUG-004: El botón "Search" no devuelve resultados (Enter sí funciona)
 
-| Campo | Contenido |
-|---|---|
-| **Precondiciones** | Usuario en la página principal, sin sesión iniciada |
-| **Pasos** | 1. Abrir https://sauce-demo.myshopify.com/ <br> 2. Escribir "Jacket" en la barra de búsqueda <br> 3. Hacer clic en el botón "Search" del encabezado |
-| **Datos de prueba** | Término: `Jacket` |
-| **Resultado esperado** | Se muestra la lista de productos relacionados con "Jacket", igual que al presionar Enter |
-| **Resultado real** | Se muestra el mensaje "No search results" (con cualquier término) |
-| **Severidad** | Media: es un camino principal de búsqueda, aunque existe la alternativa de Enter |
-| **Reproducibilidad** ||
+Campo	Contenido
+Título	Dos controles “Search” con comportamiento distinto: el enlace del menú ignora el texto escrito
+Tipo	Usabilidad
+Pasos	1. Abrir la tienda. 2. Escribir “Jacket” en el campo de búsqueda. 3. Hacer clic en el enlace “Search” del menú superior
+Resultado esperado	Se muestran los resultados de “Jacket” (expectativa de usuario, no un requisito documentado)
+Resultado real	Se abre la página de búsqueda con el mensaje “No search performed” y el término escrito se pierde
+Alternativas	Funciona con la lupa y con Enter
+Severidad	Baja: hay dos alternativas que funcionan
 | **Evidencia** | <img width="1335" height="683" alt="Search" src="https://github.com/user-attachments/assets/9d1f1f88-c971-4651-ae73-6fa97bfedb80" /> |
 
 ---
