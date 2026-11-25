@@ -116,6 +116,6 @@ Severidad	Baja: hay dos alternativas que funcionan
 ## Jira
 Bugs and test cases are tracked in a Jira project (Kanban board).
 
-![Jira board](jira/SDQA-Board.png)
-![Jira board](jira/SDQA-Sumary.png)
-![task detail](jira/SDQA-TC-003.png)
+![Jira board](jira/SDQA-Board.PNG)
+![Jira board](jira/SDQA-Sumary.PNG)
+![task detail](jira/SDQA-TC-003.PNG)
