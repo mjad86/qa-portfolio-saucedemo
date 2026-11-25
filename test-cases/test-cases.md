@@ -68,7 +68,7 @@
 - **Steps:**</br> 
 1. navigate to search module </br> 
 2. insert "jacket" on search field </br> 
-3.click "magnifying glass icon" or "press enter" on the keyboard
+3. click "magnifying glass icon" or "press enter" on the keyboard
 - **Expected result:** items filtered by jacket family item
 - **Actual result:** items correctly filtered by jacket family item
 - **Status:** Pass
