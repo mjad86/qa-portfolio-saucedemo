@@ -112,3 +112,10 @@ Severidad	Baja: hay dos alternativas que funcionan
 | **Severidad** | Media-Baja: riesgo de pérdida involuntaria de una compra, pero requiere una acción rápida del usuario y el navegador suele cancelar peticiones al navegar |
 | **Reproducibilidad** 4 de 5 intentos, con y sin throttling |
 | **Evidencia** | Sin imagen |
+
+## Jira
+Bugs and test cases are tracked in a Jira project (Kanban board).
+
+![Jira board](jira/SDQA-Board.png)
+![Jira board](jira/SDQA-Sumary.png)
+![task detail](jira/SDQA-TC-003.png)
