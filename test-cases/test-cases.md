@@ -4,7 +4,7 @@
 - **Module:**: Login
 - **Title:** Login with valid credentials
 - **Preconditions:** Registered account exists
-- **Steps:** 1. Open login page 
+- **Steps:** 1. Open login page</br> 
              2. Enter valid email and password 
              3. Click "Sign in"
 - **Expected result:** User is logged in and redirected to the account page
