@@ -1,4 +1,4 @@
-# BUG-0XX: Product not displayed in cart until page refresh
+# BUG-007: Product not displayed in cart until page refresh
 
 **Related test case:** TC-003
 **Module:** Cart
@@ -30,6 +30,6 @@ Contador del carrito: se actualiza
 Otros navegadores: se reproduce
 
 ## Evidence
-![Before refresh](../evidence/BUG-005before_refresh.png)
-![After refresh](../evidence/BUG-005after_refresh.png)
-[Video evidence (10s)](../evidence/BUG-005.mp4)
+![Before refresh](../evidence/BUG-007before_refresh.png)
+![After refresh](../evidence/BUG-007after_refresh.png)
+[Video evidence (10s)](../evidence/BUG-007.mp4)

@@ -37,7 +37,7 @@
 - **Expected result:** The product appears in the cart with the right price
 - **Actual result:** the product is added to cart with correct price but is not displayed until page refresh or module change.
 - **Status:** Fail
-- **Linked Bug:** BUG-005
+- **Linked Bug:** BUG-007
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
